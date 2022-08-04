@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>....</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./madia.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h2 class="logo">Brand</h2>
+            <ul class="collection">
+                <li class="item"><span>Home</span></li>
+                <li class="item"><span>About</span></li>
+                <li class="item"><span>Blog</span></li>
+                <li class="item"><span>Contact</span></li>
+                <li class="item"><input type="text" placeholder="Search..."></li>
+            </ul>
+            <div class="menu" onclick="addClass()"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="banner">
+            <h1>Web Dewoleper</h1>
+            <button onclick="showFrom()">Sign Up</button>
+            <div onclick="showFrom1()" class="from_model">
+                <div class="close" onclick="showFrom()">&#10005;</div>
+                <h1>Sing Up</h1>
+                <input required type="text" placeholder="Name">
+                <input required type="password" placeholder="Password">
+                <div class="chectbox">
+                    <input type="checkbox">
+                    <label for="">Forgot password</label>
+                    <input class="btn" type="submit" value="Sing in">
+                </div>
+            </div>
+            <div class="call_me">
+                <div onclick="from()" class="call"><i class="fas fa-phone"></i></div>
+            </div>
+            <div class="call_div">
+                <div class="close1" onclick="from()">&#10005;</div>
+                <h1>Call Center</h1>
+                <input required type="text" placeholder="your name is falilagin">
+                <br>
+                <input required type="number" placeholder="your phone number">
+                <br>
+                <button class="ajax">Registration</button>
+                <div class="icon">
+                    <i class="fab fa-telegram"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
